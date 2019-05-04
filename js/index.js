@@ -35,5 +35,5 @@ function checkScreenSize() {
 }
 
 function checkLoggedIn() {
-	window.open(action, "_top");
+	//window.open(action, "_top");
 }
