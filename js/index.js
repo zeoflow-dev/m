@@ -27,14 +27,15 @@ function checkScreenSize() {
 	  () => {
 	  	if (desktop) {
 	  		action = "../h/d/build";
+	  		window.open(action, "_top");
 	  	} else {
 	  		if (localStorage.getItem("ZeoFlowUserLogged")!==null) {
 	  			document.getElementById('splash').hidden = true;
 	  			document.getElementById('home').hidden = false;
 				document.getElementById('txtWelcome').innerText = "Welcome, " + userData.name + "!";
-	  			action = "../h/m/home";
 			} else {
-	  			action = "../h/m/login";
+	  			action = "login";
+	  			window.open(action, "_top");
 			}
 	  	}
 	  	checkLoggedIn();
