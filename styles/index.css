@@ -51,6 +51,7 @@ body > div > i {display: none !important;}
   width: 20%;
   padding: 14px 0;
   transition: none;
+  cursor: none;
 }
 
 .active{
