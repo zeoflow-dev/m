@@ -21,7 +21,7 @@
   <!-- Add to homescreen for Safari on iOS -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="apple-mobile-web-app-title" content="ZeoFlow | Log In or Sign Up">
+  <meta name="apple-mobile-web-app-title" content="ZeoFlow">
   <meta name="apple-mobile-web-app-status-bar-style" content="#000000">
 
   <link rel="stylesheet" href="styles/index.css" type="text/css">
@@ -48,9 +48,26 @@
 
 </head>
 <body onresize="onResize()">
-      <div id="splash-holder">
-        <img id="splash-icon" src="img/ic_zeoflow_splash.png" alt="ZeoFlow Logo">
+
+  <div id="splash">
+        <img id="splash-icon" src="img/ic_zeoflow_splash.png" alt="ZeoFlow Logo">    
+  </div>
+
+  <div hidden id="home">
+
+    <div class="container">
+      <div class="icon_bar">
+        <a href="#"><i class="fa fa_home"><img id="icon" src="img/ic_feed_drawer.png" alt="ZeoFlow Home"></i></a>
+        <a href="#"><i class="fa fa_home"><img id="icon" src="img/ic_message_drawer.png" alt="ZeoFlow Home"></i></a>
+        <a href="#"><i class="fa fa_home"><img id="icon" src="img/ic_discover_drawer.png" alt="ZeoFlow Home"></i></a>
+        <a href="#"><i class="fa fa_home"><img id="icon" src="img/ic_notification_drawer.png" alt="ZeoFlow Home"></i></a>
+        <a href="#"><i class="fa fa_home"><img id="icon" src="img/ic_settings_drawer.png" alt="ZeoFlow Home"></i></a>
       </div>
+    </div>
+
+    <p id="txtWelcome"></p>
+    
+  </div>
 
 </body>
 </html>
