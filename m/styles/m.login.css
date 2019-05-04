@@ -1,0 +1,188 @@
+html,
+body {
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+  margin: 0;
+  background-image: linear-gradient(to bottom right, #43e97b, #38f9d7);
+}
+ 
+body > div > i {display: none !important;}
+
+#txtLogInTitleM {
+  position:fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: #212121;
+  font-size: 22px;
+}
+
+#splash-icon {
+  position: absolute;
+  margin: auto;
+  width: 120px;
+  top: 70px;
+  left: 0;
+  right: 0;
+}
+
+#data-holder-login {
+  overflow: auto;
+  position: fixed;
+  top: 160px;
+  left: 16px;
+  right: 16px;
+  bottom: -50px;
+  background-color: #fcfcfc;
+  padding: 10px;
+  padding-top: 50px;
+  border-radius: 20px;
+  box-shadow: 0 0 3px #000;
+}
+
+#log_key_input {
+  height: 46px;
+  width: 100%;
+  background-color: #fcfcfc;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 0 2px #000;
+  padding-bottom: 5px;
+}
+
+#log_pass_input {
+  height: 46px;
+  width: 100%;
+  background-color: #fcfcfc;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 0 2px #000;
+  padding-bottom: 5px;
+}
+
+#btn_login {
+  height: 46px;
+  width: 90%;
+  background-color: #3cf4b9;
+  margin: 0 auto;
+  border-radius: 18px;
+  box-shadow: 0 0 3px #000;
+  align-items: center;
+  display: flex;
+}
+
+#btn_signup {
+  height: 46px;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 18px;
+  border-style: solid;
+  border-color: #f43c74;
+  border-width: 2px 2px 2px 2px;
+  box-shadow: 0 0 3px #000;
+  align-items: center;
+  display: flex;
+}
+
+#btn_pass_forgot {
+  height: 46px;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+}
+
+#lbl_login {
+  font-size: 18px;
+  color: #212121;
+  margin:0 auto;
+  font-weight: bolder;
+}
+
+#lbl_pass_forgot {
+  font-size: 14px;
+  color: #1E88E5;
+  margin:0 auto;
+}
+
+#lbl_signup {
+  font-size: 18px;
+  color: #f43c74;
+  margin:0 auto;
+  font-weight: bolder;
+}
+
+#btn_login:hover {
+  box-shadow: 0 0 6px #000;
+}
+
+#btn_signup:hover {
+  box-shadow: 0 0 6px #000;
+}
+
+#space {
+	height: 12px;
+}
+
+#space_btn {
+	height: 30px;
+}
+
+#space_end {
+	height: 100px;
+}
+
+#form_input {
+	padding: 20px;
+}
+
+#key_label, #key_label_pass {
+	display: block;
+	position: relative;
+	top: -23px;
+	left: 0px;
+	color: #999;
+	font-size: 16px;
+	z-index: 1;
+	transition: all 0.3s ease;
+}
+
+#key_input_email, #key_input_pass {
+	color: #212121;
+	display: block;
+	position: relative;
+	background: none;
+	border: none;
+	width: 100%;
+	font-size: 16px;
+	z-index: 2;
+}
+
+#key_input_email, #key_input_pass:focus, #key_input_email, #key_input_pass:valid {
+	outline: none;
+}
+
+#key_input_email:focus + #key_label, #key_input_email:valid + #key_label {
+	top: -34px;
+	font-size: 11px;
+	color: #797979;
+}
+
+#key_input_pass:focus + #key_label_pass, #key_input_pass:valid + #key_label_pass {
+	top: -34px;
+	font-size: 11px;
+	color: #797979;
+}
+
+@media (min-width: 600px) {
+  //desktop
+}
+
+@media (max-width: 600px) {
+  //mobile
+}

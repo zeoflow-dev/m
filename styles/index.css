@@ -1,0 +1,38 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+  margin: 0;
+  background-color: #ffffff;
+}
+ 
+body > div > i {display: none !important;}
+
+#splash-holder {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+#splash-icon {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+@media (min-width: 600px) {
+  #splash-icon {
+    height: 20%;
+  }
+}
+
+@media (max-width: 600px) {
+  #splash-icon {
+    width: 30%;
+  }
+}
