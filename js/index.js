@@ -26,7 +26,7 @@ function checkScreenSize() {
 
 	if (window.sessionStorage.getItem("splashShown")!=null) {
 	  	if (desktop) {
-	  		action = "../h/d/build";
+	  		action = "https://zeoflow.github.io/d";
 	  		window.open(action, "_top");
 	  	} else {
 	  		if (localStorage.getItem("ZeoFlowUserLogged")!==null) {
@@ -44,7 +44,7 @@ function checkScreenSize() {
 		setTimeout(
 			  () => {
 			  	if (desktop) {
-			  		action = "../h/d/build";
+			  		action = "https://zeoflow.github.io/d";
 			  		window.open(action, "_top");
 			  	} else {
 			  		if (localStorage.getItem("ZeoFlowUserLogged")!==null) {

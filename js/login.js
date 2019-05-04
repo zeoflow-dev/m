@@ -57,7 +57,7 @@ function checkScreenSize() {
 	}
 
 	if (desktop) {
-		//window.open("../d/build", "_top");
+		window.open("https://zeoflow.github.io/d", "_top");
 	}
 
 }
