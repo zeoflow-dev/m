@@ -42,7 +42,7 @@ body > div > i {display: none !important;}
   height: 50px;
   background: #000000;
   box-shadow: 0 2px 2px rgba(0,0,0,.3);
-  overflow: auto;
+  overflow: hidden;
 }
 
 .icon_bar a{
