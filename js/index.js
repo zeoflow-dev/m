@@ -24,6 +24,11 @@ window.onload = function what(){
 
 function checkScreenSize() {
 
+	if (desktop) {
+	  	action = "https://zeoflow.github.io/d";
+	  	window.open(action, "_top");
+	}
+
 	if (window.sessionStorage.getItem("splashShown")!=null) {
 	  	if (desktop) {
 	  		action = "https://zeoflow.github.io/d";
