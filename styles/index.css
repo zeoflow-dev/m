@@ -53,10 +53,6 @@ body > div > i {display: none !important;}
   transition: all 0.3s ease;
 }
 
-.icon_bar a:hover{
-  background: rgba(0,0,0,.1);
-}
-
 .active{
   background: rgba(0,0,0,.1);
 }
