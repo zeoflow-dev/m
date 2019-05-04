@@ -10,6 +10,7 @@ if (localStorage.getItem("ZeoFlowUserLogged")!==null) {
 	window.open(action, "_top");
 }
 
+ipLookUp();
 var url_string = window.location.href;
 var url = new URL(url_string);
 var emailVerified = url.searchParams.get("emailVerified");
@@ -28,7 +29,6 @@ function ipLookUp () {
 	  });
   });
 }
-ipLookUp();
 
 checkScreenSize();
 function onResize() {
