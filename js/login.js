@@ -57,7 +57,7 @@ function checkScreenSize() {
 	}
 
 	if (desktop) {
-		window.open("../d/build", "_top");
+		//window.open("../d/build", "_top");
 	}
 
 }
@@ -168,7 +168,7 @@ function checkEmailVerified() {
     } else {
 		console.log("email not verified");
 		const verifyCode = makeid(30);
-		var url = "https://zeoflow.github.io/social/auth/action?mode=verifyEmail&verifyCode=";
+		var url = "https://zeoflow.github.io/auth/action?mode=verifyEmail&verifyCode=";
 		url += verifyCode;
 		url += "&uid=";
 		url += userData.userId;
@@ -218,7 +218,7 @@ function succeedLoginFinal() {
     markPasswordAsGood();
     markLogKeyAsGood();
 
-	action = "action";
+	action = "https://zeoflow.github.io/m/";
 	window.open(action, "_top");
 
 }
