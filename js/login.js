@@ -6,7 +6,7 @@ var ipData;
 var action;
 
 if (localStorage.getItem("ZeoFlowUserLogged")!==null) {
-	action = "home";
+	action = "https://zeoflow.github.io/m/";
 	window.open(action, "_top");
 }
 
