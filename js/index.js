@@ -5,22 +5,24 @@ function onResize() {
 }
 
 var userData;
-window.onload = function what(){
-	if (localStorage.getItem("ZeoFlowUserLogged")!==null) {
-		userData = JSON.parse(localStorage.getItem(localStorage.getItem("ZeoFlowUserLogged")));
-	}
-	checkScreenSize();
-};
-
 var action;
 var desktop;
-function checkScreenSize() {
+
+window.onload = function what(){
 
 	if (window.screen.width <= 600) {
 		desktop = false;
 	} else {
 		desktop = true;
 	}
+
+	if (localStorage.getItem("ZeoFlowUserLogged")!==null) {
+		userData = JSON.parse(localStorage.getItem(localStorage.getItem("ZeoFlowUserLogged")));
+	}
+	checkScreenSize();
+};
+
+function checkScreenSize() {
 
 	if (window.sessionStorage.getItem("splashShown")!=null) {
 	  	if (desktop) {
