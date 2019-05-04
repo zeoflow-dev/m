@@ -166,7 +166,8 @@ function checkEmailVerified() {
     if (userData.accountVerifiedEmail) {
         checkAccountStatus();
     } else {
-		console.log("email not verified");
+
+		document.getElementById('lbl_login').innerText = "Please check your email";
 		const verifyCode = makeid(30);
 		var url = "https://zeoflow.github.io/auth/action?mode=verifyEmail&verifyCode=";
 		url += verifyCode;
