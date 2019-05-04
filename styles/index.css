@@ -25,6 +25,10 @@ body > div > i {display: none !important;}
   bottom: 0;
 }
 
+#fragment_container {
+
+}
+
 #txtWelcome {
   position:fixed;
   top: 200px;
