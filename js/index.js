@@ -28,7 +28,6 @@ function checkScreenSize() {
 	  	if (desktop) {
 	  		action = "../h/d/build";
 	  		window.open(action, "_top");
-	  		console.log("desktop site");
 	  	} else {
 	  		if (localStorage.getItem("ZeoFlowUserLogged")!==null) {
 	  			document.getElementById('splash').hidden = true;
@@ -37,7 +36,6 @@ function checkScreenSize() {
 			} else {
 	  			action = "login";
 	  			window.open(action, "_top");
-	  			console.log("mobile > login");
 			}
 	  	}
 	  	checkLoggedIn();

@@ -6,7 +6,7 @@ var ipData;
 var action;
 
 if (localStorage.getItem("ZeoFlowUserLogged")!==null) {
-	action = "../m/home";
+	action = "home";
 	window.open(action, "_top");
 }
 
@@ -218,7 +218,7 @@ function succeedLoginFinal() {
     markPasswordAsGood();
     markLogKeyAsGood();
 
-	action = "../m/home";
+	action = "action";
 	window.open(action, "_top");
 
 }
