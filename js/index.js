@@ -38,13 +38,8 @@ function checkScreenSize() {
 	  			window.open(action, "_top");
 			}
 	  	}
-	  	checkLoggedIn();
 	  },
 	  1 * 1000
 	);
 
-}
-
-function checkLoggedIn() {
-	//window.open(action, "_top");
 }
